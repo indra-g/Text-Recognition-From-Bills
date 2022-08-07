@@ -1,0 +1,5 @@
+# Text-Recognition-From-Bills
+Using the available datasets, such as the IAM dataset, our five-person team developed character- and word-based neural network models. Select the most accurate model after comparing the models accuracy. Pre-process the input invoice image using OpenCV and convert it into a formatted digital document using the model we created. Then utilizing established models like KerasOCR to extract the entire text from the digital document.
+![TextExtractionImg1](https://user-images.githubusercontent.com/66256723/183302734-2daded64-a3f9-4cfe-b89a-49ee6eecef7a.png)
+We have used OpenCV for image pre-processing it is used to find structures in the images to automatically break the images into printed segments and handwritten segments. Some of the pre-processing techniques done are Padding images, Rotating images, Zero-centering image data, Blurring, morphing, edge detection, and grayscale conversion.
+![TextExtractionImg2](https://user-images.githubusercontent.com/66256723/183302777-b6314b31-ea83-4263-b3a8-a8f48d0f219b.png)
